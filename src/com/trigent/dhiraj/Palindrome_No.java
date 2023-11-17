@@ -9,9 +9,9 @@ public class Palindrome_No {
 		
 		temp=number;
 		while(number>0) {
-		reverse =number%10;
-		sum=(sum*10)+reverse;
-		number = number/10;
+		reverse =number%10;//here we get remainder
+		sum=(sum*10)+reverse;// it will add numbers
+		number = number/10;// reduce the numbers
 		
 		}
 		if(temp==sum) {
